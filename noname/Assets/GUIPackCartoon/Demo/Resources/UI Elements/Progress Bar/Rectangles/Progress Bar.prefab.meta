@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 7515866bff5ab47e48a3ffd99bfe6507
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 48850
+  packageName: Cartoon GUI Pack
+  packageVersion: 2.0.4
+  assetPath: Assets/GUIPackCartoon/Demo/Resources/UI Elements/Progress Bar/Rectangles/Progress
+    Bar.prefab
+  uploadId: 671655

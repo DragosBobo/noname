@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 7ad74e58436c044a5990d602bf775a64
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 48850
+  packageName: Cartoon GUI Pack
+  packageVersion: 2.0.4
+  assetPath: Assets/GUIPackCartoon/Demo/Resources/UI Elements/Buttons/Rectangles/Button
+    - Purple.prefab
+  uploadId: 671655

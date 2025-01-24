@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: e340f342607574ef2acfc083e19918fd
+timeCreated: 1438015690
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 48850
+  packageName: Cartoon GUI Pack
+  packageVersion: 2.0.4
+  assetPath: Assets/GUIPackCartoon/Demo/Resources/Popups/Messages.prefab
+  uploadId: 671655

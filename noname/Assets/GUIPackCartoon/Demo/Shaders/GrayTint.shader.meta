@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: b2d419717259949de8d464a8b9a05c28
+timeCreated: 1437661614
+licenseType: Store
+ShaderImporter:
+  defaultTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 48850
+  packageName: Cartoon GUI Pack
+  packageVersion: 2.0.4
+  assetPath: Assets/GUIPackCartoon/Demo/Shaders/GrayTint.shader
+  uploadId: 671655

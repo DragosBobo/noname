@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: ced30d8cddcab47d1bce8f0b77105820
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 48850
+  packageName: Cartoon GUI Pack
+  packageVersion: 2.0.4
+  assetPath: Assets/GUIPackCartoon/Demo/Scripts/AnimatedButton.cs
+  uploadId: 671655

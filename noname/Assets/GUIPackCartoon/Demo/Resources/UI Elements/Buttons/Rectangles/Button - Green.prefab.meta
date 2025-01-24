@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: e3cc799eb64ca416dbc837b0036622ae
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 48850
+  packageName: Cartoon GUI Pack
+  packageVersion: 2.0.4
+  assetPath: Assets/GUIPackCartoon/Demo/Resources/UI Elements/Buttons/Rectangles/Button
+    - Green.prefab
+  uploadId: 671655

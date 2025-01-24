@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 5003602427df14b96aa47dd43eaccead
+timeCreated: 1441818005
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 48850
+  packageName: Cartoon GUI Pack
+  packageVersion: 2.0.4
+  assetPath: Assets/GUIPackCartoon/Demo/Resources/Popups/Modal - Info.prefab
+  uploadId: 671655

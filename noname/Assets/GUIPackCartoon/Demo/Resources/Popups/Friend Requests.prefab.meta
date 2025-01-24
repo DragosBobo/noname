@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: b4dd2d759419d483cbe40c2bb8abb7f3
+timeCreated: 1447089075
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 48850
+  packageName: Cartoon GUI Pack
+  packageVersion: 2.0.4
+  assetPath: Assets/GUIPackCartoon/Demo/Resources/Popups/Friend Requests.prefab
+  uploadId: 671655

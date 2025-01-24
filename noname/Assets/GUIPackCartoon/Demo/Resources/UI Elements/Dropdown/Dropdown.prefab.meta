@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 1f4f46815ff6b4e19ad9bf7caaca2f2c
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 48850
+  packageName: Cartoon GUI Pack
+  packageVersion: 2.0.4
+  assetPath: Assets/GUIPackCartoon/Demo/Resources/UI Elements/Dropdown/Dropdown.prefab
+  uploadId: 671655

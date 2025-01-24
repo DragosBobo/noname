@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 5efee3498e96d4244acee237e95d20b4
+timeCreated: 1441818005
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 48850
+  packageName: Cartoon GUI Pack
+  packageVersion: 2.0.4
+  assetPath: Assets/GUIPackCartoon/Demo/Resources/Popups/Modal - Quit.prefab
+  uploadId: 671655

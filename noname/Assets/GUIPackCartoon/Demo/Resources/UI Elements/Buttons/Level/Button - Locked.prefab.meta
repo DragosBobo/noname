@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: f9d91acd4ad5a40bc9058b011a8267cc
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 48850
+  packageName: Cartoon GUI Pack
+  packageVersion: 2.0.4
+  assetPath: Assets/GUIPackCartoon/Demo/Resources/UI Elements/Buttons/Level/Button
+    - Locked.prefab
+  uploadId: 671655

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 4c314a68e096a41398c069b4010d7b3c
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 48850
+  packageName: Cartoon GUI Pack
+  packageVersion: 2.0.4
+  assetPath: Assets/GUIPackCartoon/Demo/Resources/UI Elements/Input Field/InputFields
+    - Group.prefab
+  uploadId: 671655

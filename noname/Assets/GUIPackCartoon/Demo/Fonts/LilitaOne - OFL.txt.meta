@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: ea6459774d824484b892322fde23bf11
+timeCreated: 1447174491
+licenseType: Store
+TextScriptImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 48850
+  packageName: Cartoon GUI Pack
+  packageVersion: 2.0.4
+  assetPath: Assets/GUIPackCartoon/Demo/Fonts/LilitaOne - OFL.txt
+  uploadId: 671655

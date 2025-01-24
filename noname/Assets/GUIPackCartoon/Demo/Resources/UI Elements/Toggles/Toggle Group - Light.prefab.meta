@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 6199fabd5a8834a17ad70393a6210202
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 48850
+  packageName: Cartoon GUI Pack
+  packageVersion: 2.0.4
+  assetPath: Assets/GUIPackCartoon/Demo/Resources/UI Elements/Toggles/Toggle Group
+    - Light.prefab
+  uploadId: 671655

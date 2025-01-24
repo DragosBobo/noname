@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: b903b3ecbb35146abba0b32b29ce299e
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 48850
+  packageName: Cartoon GUI Pack
+  packageVersion: 2.0.4
+  assetPath: Assets/GUIPackCartoon/Demo/Resources/UI Elements/Buttons/Rectangles/Button
+    - Red.prefab
+  uploadId: 671655

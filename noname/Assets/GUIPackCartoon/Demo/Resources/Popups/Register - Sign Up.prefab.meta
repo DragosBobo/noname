@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 438e1e914277b4d72b9b5ec90232fcbc
+timeCreated: 1437413117
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 48850
+  packageName: Cartoon GUI Pack
+  packageVersion: 2.0.4
+  assetPath: Assets/GUIPackCartoon/Demo/Resources/Popups/Register - Sign Up.prefab
+  uploadId: 671655

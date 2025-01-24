@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 68838c289b0e242869ea25c94cfc8326
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 48850
+  packageName: Cartoon GUI Pack
+  packageVersion: 2.0.4
+  assetPath: Assets/GUIPackCartoon/Demo/Resources/UI Elements/Scroll View/Scroll
+    View.prefab
+  uploadId: 671655

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 225ad75b7d168450fb9abba5d4e401af
+timeCreated: 1439119126
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 48850
+  packageName: Cartoon GUI Pack
+  packageVersion: 2.0.4
+  assetPath: Assets/GUIPackCartoon/Demo/Resources/Popups/Start Game.prefab
+  uploadId: 671655
