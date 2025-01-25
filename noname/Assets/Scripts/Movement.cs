@@ -8,6 +8,8 @@ public class Movement : MonoBehaviour
     public Rigidbody rb;
     public InputController input;
     public Animator animator;
+    public Transform visualTransform;
+
     [Header("Valori")]
     public float walkSpeed = 5;
     public float runSpeed = 8;
@@ -88,11 +90,18 @@ public class Movement : MonoBehaviour
             animator.SetBool("IsRunning", isRunning);
         }
 
-    //   this.transform.Rotate(Vector3.up ,moveValue.x * rotationSpeed * Time.fixedDeltaTime);
-        Quaternion targetRotation = Quaternion.LookRotation(targetPosition);
-        transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation, Time.fixedDeltaTime * rotationSpeed);
+        //   this.transform.Rotate(Vector3.up ,moveValue.x * rotationSpeed * Time.fixedDeltaTime);
+        if (moveDirection.magnitude > 0.1f)
+        {
+            Quaternion targetRotation = Quaternion.LookRotation(moveDirection);
+            visualTransform.rotation = Quaternion.Slerp(
+                visualTransform.rotation,
+                targetRotation,
+                Time.fixedDeltaTime * rotationSpeed
+            );
+
+
+
+        }
     }
-
-
-
 }
