@@ -334,8 +334,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4279415551
-  m_fontColor: {r: 1, g: 0.69803923, b: 0.07058824, a: 1}
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -393,7 +393,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 1
+  m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &313055851
@@ -435,7 +435,7 @@ AudioSource:
   m_audioClip: {fileID: 8300000, guid: e2a1c25d1c1b493418c12aa954c59fd5, type: 3}
   m_Resource: {fileID: 8300000, guid: e2a1c25d1c1b493418c12aa954c59fd5, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.8
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -677,15 +677,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.72156864, g: 0.12941177, b: 0.043137256, a: 0.9607843}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 1910860170, guid: c10100747b80c5641ac76ab237aab2b7, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -1423,14 +1423,14 @@ RectTransform:
   m_GameObject: {fileID: 1690412661}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 2.6928, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 1.8, y: 1.8, z: 1.8}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 1084343052}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 32, y: 260.2605}
+  m_AnchoredPosition: {x: 206, y: 289}
   m_SizeDelta: {x: 417.4119, y: 68.521}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1690412663
@@ -1453,7 +1453,15 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Bring the beer to your customer in time!
+  m_text: "Welcome, noble tavern keeper, to thy bustling medieval alehouse. \nVisit
+    the barrels to fill thy mugs, then swiftly deliver them to the waiting patrons.
+    Beware, for their patience is as fleeting as the sands of time.\n\nEach contented
+    patron shall reward thee with coin, a boon for thy swift service.\nShould you
+    loiter and leave thy patrons wait too long, they shall grow wroth and depart,
+    leaving thy coffers bare. Keep the ale flowing, lest thy reputation suffer and
+    your sparkly treasure of brewery hops vanish forever and thy tavern fall to ruin.\n\nKeep
+    thy wits sharp and thy hands quicker! Prosper, and may thy name echo through
+    the ages and your tavern be a haven of merriment!"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 023043c73babc39439e4ea3141aba64e, type: 2}
   m_sharedMaterial: {fileID: 8787537721001991918, guid: 023043c73babc39439e4ea3141aba64e, type: 2}
@@ -1462,8 +1470,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4279415551
-  m_fontColor: {r: 1, g: 0.69803923, b: 0.07058824, a: 1}
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -1480,8 +1488,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 52
-  m_fontSizeBase: 52
+  m_fontSize: 25
+  m_fontSizeBase: 25
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1518,7 +1526,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: -381.76227}
+  m_margin: {x: -309.03937, y: -94.962524, z: -72.55586, w: -381.76227}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -1709,16 +1717,16 @@ RectTransform:
   m_GameObject: {fileID: 2051563230}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.0025929, y: 1.061106, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 0.8, y: 0.8, z: 0.8}
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 313055849}
   m_Father: {fileID: 1084343052}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 1029.7759, y: -922.69574}
-  m_SizeDelta: {x: 466.9469, y: 105.0811}
+  m_AnchoredPosition: {x: 969, y: -930}
+  m_SizeDelta: {x: 350, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2051563232
 MonoBehaviour:
@@ -2240,7 +2248,7 @@ MonoBehaviour:
   m_text: "NoName4Moment\n\nAlberto\nAlexandru \nDragos \nVlad\n\nGGJ 2025"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 023043c73babc39439e4ea3141aba64e, type: 2}
-  m_sharedMaterial: {fileID: -1914525807653333651, guid: 4d77dc3f7a1a03e4f99172d96f654623, type: 2}
+  m_sharedMaterial: {fileID: 8787537721001991918, guid: 023043c73babc39439e4ea3141aba64e, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2286,7 +2294,7 @@ MonoBehaviour:
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 1
-  m_ActiveFontFeatures: 00000000
+  m_ActiveFontFeatures: 6e72656b
   m_enableExtraPadding: 0
   checkPaddingRequired: 0
   m_isRichText: 1
@@ -2683,8 +2691,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 6.2506104, y: 3.3095093}
-  m_SizeDelta: {x: 47.9937, y: -23.117}
+  m_AnchoredPosition: {x: 0.025024414, y: -1.6680908}
+  m_SizeDelta: {x: 35.5747, y: -32.4989}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &6429134376392162186
 RectTransform:
@@ -2966,7 +2974,7 @@ MonoBehaviour:
   m_text: Back To Menu
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 023043c73babc39439e4ea3141aba64e, type: 2}
-  m_sharedMaterial: {fileID: -1914525807653333651, guid: 4d77dc3f7a1a03e4f99172d96f654623, type: 2}
+  m_sharedMaterial: {fileID: 8787537721001991918, guid: 023043c73babc39439e4ea3141aba64e, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -3012,7 +3020,7 @@ MonoBehaviour:
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 0
-  m_ActiveFontFeatures: 00000000
+  m_ActiveFontFeatures: 
   m_enableExtraPadding: 0
   checkPaddingRequired: 0
   m_isRichText: 1
@@ -3078,7 +3086,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 7062601205432776896}
         m_TargetAssemblyTypeName: MainMenuController, Assembly-CSharp
         m_MethodName: Button_ConfirmQuit
         m_Mode: 1
@@ -3254,7 +3262,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 1618, y: 124}
+  m_AnchoredPosition: {x: 1613, y: 112}
   m_SizeDelta: {x: 300, y: 232}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!114 &8547040252291709246

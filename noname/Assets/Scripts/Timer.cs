@@ -7,11 +7,12 @@ public class Timer : MonoBehaviour
     public bool isCountdownFinished = false;
 
     public float countdownTime = 2.0f;
-
-    void Start()
+[SerializeField]
+private GameObject pl;  
+  void Start()
     {
         animator = GetComponent<Animator>();
-
+        
         if (animator == null)
         {
             Debug.LogError("Animator component is missing on this GameObject.");
@@ -37,6 +38,7 @@ public class Timer : MonoBehaviour
         isCountdownFinished = true; 
         yield return new WaitForSeconds(countdownTime);
         Debug.Log("Countdown finished!");
-    
-}
+        Destroy(gameObject); // 
+        Destroy(pl);
+    }
 }
