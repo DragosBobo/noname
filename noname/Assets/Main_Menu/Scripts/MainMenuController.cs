@@ -9,7 +9,7 @@ public class MainMenuController : MonoBehaviour
     {
         Debug.Log("Start Game Button Clicked");
         
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(2);
     }
 
     public void Button_ConfirmQuit()
