@@ -78,6 +78,9 @@ public class Movement : MonoBehaviour
         Vector3 targetPosition = rb.position + moveDirection * moveSpeed * Time.fixedDeltaTime;
         rb.MovePosition(targetPosition);
 
+
+
+
         bool isWalking = moveDirection.magnitude != 0f && !isRunning;
 
         if (animator.GetBool("IsWalking") != isWalking)
@@ -94,8 +97,8 @@ public class Movement : MonoBehaviour
         if (moveDirection.magnitude > 0.1f)
         {
             Quaternion targetRotation = Quaternion.LookRotation(moveDirection);
-            visualTransform.rotation = Quaternion.Slerp(
-                visualTransform.rotation,
+            transform.rotation = Quaternion.Slerp(
+                transform.rotation,
                 targetRotation,
                 Time.fixedDeltaTime * rotationSpeed
             );
