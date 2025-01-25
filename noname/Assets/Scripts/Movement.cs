@@ -9,6 +9,7 @@ public class Movement : MonoBehaviour
     public InputController input;
     public Animator animator;
     public Transform visualTransform;
+    public CameraScript cameraScript;
 
     [Header("Valori")]
     public float walkSpeed = 5;
@@ -47,7 +48,6 @@ public class Movement : MonoBehaviour
 
     }
 
-
     private void FixedUpdate()
     {
         moveController();
@@ -61,7 +61,8 @@ public class Movement : MonoBehaviour
     {
         moveValue = input.moveDirection;
 
-        if (isDrunk)
+        Vector3 forward = cameraScript.GetCameraForward();
+        Vector3 right = cameraScript.GetCameraRight(); if (isDrunk)
         {
             moveSpeed = drunkSpeed;
         }
@@ -74,9 +75,12 @@ public class Movement : MonoBehaviour
             moveSpeed = walkSpeed;
         }
 
-        Vector3 moveDirection = new Vector3(moveValue.x, 0, moveValue.y).normalized;
+        Vector3 moveDirection = forward * moveValue.y + right * moveValue.x;
         Vector3 targetPosition = rb.position + moveDirection * moveSpeed * Time.fixedDeltaTime;
         rb.MovePosition(targetPosition);
+
+
+
 
         bool isWalking = moveDirection.magnitude != 0f && !isRunning;
 
@@ -94,8 +98,8 @@ public class Movement : MonoBehaviour
         if (moveDirection.magnitude > 0.1f)
         {
             Quaternion targetRotation = Quaternion.LookRotation(moveDirection);
-            visualTransform.rotation = Quaternion.Slerp(
-                visualTransform.rotation,
+            transform.rotation = Quaternion.Slerp(
+                transform.rotation,
                 targetRotation,
                 Time.fixedDeltaTime * rotationSpeed
             );
