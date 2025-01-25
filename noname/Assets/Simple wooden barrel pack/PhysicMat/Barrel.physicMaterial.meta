@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 67913c85372c7e2499fec2b99e0103e9
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 18994
+  packageName: Simple Wooden Barrel Pack
+  packageVersion: 1.2
+  assetPath: Assets/Simple wooden barrel pack/PhysicMat/Barrel.physicMaterial
+  uploadId: 8015
