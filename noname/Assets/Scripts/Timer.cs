@@ -1,30 +1,42 @@
-using TMPro;
+﻿using TMPro;
 using UnityEngine;
 
 public class Timer : MonoBehaviour
 {
-    public float timer = 8f;
-    [SerializeField] private TextMeshProUGUI timeText;
-    [SerializeField] private Transform emptyObject; 
+    public Animator animator;
+    public bool isCountdownFinished = false;
+
+    public float countdownTime = 2.0f;
 
     void Start()
     {
-        if (emptyObject != null && timeText != null)
+        animator = GetComponent<Animator>();
+
+        if (animator == null)
         {
-            timeText.rectTransform.position = emptyObject.position;
+            Debug.LogError("Animator component is missing on this GameObject.");
         }
     }
 
     void Update()
     {
-        timer -= Time.deltaTime;
-
-        int seconds = Mathf.FloorToInt(timer % 60);
-        timeText.text = string.Format("{0:0}", seconds);
-
-        if (emptyObject != null && timeText != null)
+        if (!isCountdownFinished && IsAnimationFinished("Boomb"))
         {
-            timeText.rectTransform.position = emptyObject.position;
+            StartCoroutine(StartCountdown());
         }
     }
+
+    private bool IsAnimationFinished(string animationName)
+    {
+        AnimatorStateInfo stateInfo = animator.GetCurrentAnimatorStateInfo(0);
+        return stateInfo.IsName(animationName) && stateInfo.normalizedTime >= 1.0f;
+    }
+
+    private System.Collections.IEnumerator StartCountdown()
+    {
+        isCountdownFinished = true; 
+        yield return new WaitForSeconds(countdownTime);
+        Debug.Log("Countdown finished!");
+    
+}
 }
