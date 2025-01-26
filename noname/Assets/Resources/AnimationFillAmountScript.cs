@@ -85,4 +85,5 @@ public class AnimationFillAmountScript : MonoBehaviour
             Destroy(gameObject);
         }
     }
+
 }
