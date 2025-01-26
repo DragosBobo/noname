@@ -14819,7 +14819,8 @@ MonoBehaviour:
   countdownTime: 6
   volume: 0.2
   targetObject: {fileID: 2134693454687935348}
-  bombExplosion: {fileID: 8300000, guid: 4f2be107464759b42b2aaecccce03891, type: 3}
+  bombExplosion: {fileID: 8300000, guid: 79e07d4a55e825140a8c0e7adb963762, type: 3}
+  AudioSource: {fileID: 0}
 --- !u!1 &7242471191568707300
 GameObject:
   m_ObjectHideFlags: 0

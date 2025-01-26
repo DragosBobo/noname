@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEditor;
 
 public class AnimationFillAmountScript : MonoBehaviour
 {
@@ -68,12 +69,14 @@ public class AnimationFillAmountScript : MonoBehaviour
     {
         //scade viata
         FindAnyObjectByType<BeerBarScript>().SetCondition(2, true);
-
         // Redă sunetul de explozie
+
         if (bombExplosion != null)
         {
+            // Folosește AudioManager pentru a reda audio-ul
             AudioManager.Instance.PlayAudio(bombExplosion);
         }
+
 
         // Distruge obiectul țintă sau obiectul curent
         if (targetObject != null)

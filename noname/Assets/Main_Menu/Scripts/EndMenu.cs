@@ -9,7 +9,7 @@ public class EndMenu : MonoBehaviour
    public void Home()
    {
         SceneManager.LoadScene(0);
-   }
+    }
 
    public void Restart()
    {

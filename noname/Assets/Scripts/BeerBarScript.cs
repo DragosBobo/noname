@@ -1,10 +1,10 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;  // Pentru a folosi SceneManager
 using System.Collections;
 
 public class BeerBarScript : MonoBehaviour
-
- {
+{
     public UnityEngine.UI.Image fillImage; // Imaginea nivelului nivelului paharului
 
     // Creșterea și scăderea bruscă a valorii
@@ -60,6 +60,12 @@ public class BeerBarScript : MonoBehaviour
         if (Time.time - lastDrinkTime > inactivityTimeLimit)
         {
             ResetBeerState(); // Resetăm starea dacă au trecut 5 secunde
+        }
+
+        // Verifică dacă nivelul barei a ajuns la 0 și încarcă scena de final
+        if (fillImage.fillAmount <= 0)
+        {
+            LoadEndScene(); // Apelăm funcția care încarcă scena finală
         }
     }
 
@@ -151,5 +157,12 @@ public class BeerBarScript : MonoBehaviour
     {
         if (conditionIndex == 1) condition1 = state;
         if (conditionIndex == 2) condition2 = state;
+    }
+
+    // Funcția care încarcă scena de final
+    private void LoadEndScene()
+    {
+        GameManager.Instance.StopPlaying();
+        SceneManager.LoadScene("LevelScene"); // Înlocuiește "EndScene" cu numele real al scenei tale finale
     }
 }

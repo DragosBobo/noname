@@ -4,7 +4,7 @@ public class PlayerInteraction : MonoBehaviour
 {
     public GameObject playerMug; // Halba jucătorului
     private BarLogic barManager;
-
+    public AudioSource audioSource;
     void Start()
     {
         barManager = Object.FindAnyObjectByType<BarLogic>();
@@ -34,7 +34,6 @@ public class PlayerInteraction : MonoBehaviour
                 barManager.PlayerReturnedMug(); // Anunță că jucătorul nu mai are halba
                 GameManager.Instance.BeersDelivered();
                 // Redă sunet și dezactivează clientul
-                AudioSource audioSource = other.GetComponent<AudioSource>();
                 if (audioSource != null)
                 {
                     audioSource.Play();
