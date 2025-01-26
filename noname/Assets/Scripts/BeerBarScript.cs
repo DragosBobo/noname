@@ -1,9 +1,10 @@
-﻿using Microsoft.Unity.VisualStudio.Editor;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.UI;
+using System.Collections;
 
 public class BeerBarScript : MonoBehaviour
 {
+ 
     public UnityEngine.UI.Image fillImage; // Imaginea nivelului paharului
 
     // Creșterea și scăderea bruscă a valorii
