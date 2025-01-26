@@ -11,9 +11,10 @@ GameObject:
   - component: {fileID: 9116456005857314583}
   - component: {fileID: 1066969049007766966}
   - component: {fileID: 3452330752940981458}
+  - component: {fileID: 1156628574123024465}
   m_Layer: 0
   m_Name: npc Variant (4) Variant 2
-  m_TagString: Untagged
+  m_TagString: Client
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -83,6 +84,27 @@ Rigidbody:
   m_Interpolate: 2
   m_Constraints: 126
   m_CollisionDetection: 1
+--- !u!65 &1156628574123024465
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5700955779960000258}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 2.08, y: 1.61, z: 1.5}
+  m_Center: {x: 0, y: 0.86, z: 0}
 --- !u!1 &6325297837448803341
 GameObject:
   m_ObjectHideFlags: 0
