@@ -3,8 +3,9 @@ using UnityEngine.UI;
 using System.Collections;
 
 public class BeerBarScript : MonoBehaviour
-{
-    public UnityEngine.UI.Image fillImage; // Imaginea nivelului paharului
+
+ {
+    public UnityEngine.UI.Image fillImage; // Imaginea nivelului nivelului paharului
 
     // Creșterea și scăderea bruscă a valorii
     public float increaseAmount = 0.2f; // Cât crește nivelul
@@ -20,6 +21,15 @@ public class BeerBarScript : MonoBehaviour
     private float cooldownTime = 3f; // Timpul de blocare după a treia bere
     private float inactivityTimeLimit = 5f; // Timpul de inactivitate (5 secunde)
     private float lastDrinkTime; // Timpul ultimei băuturi
+
+    public GameObject playerMug; // Halba jucătorului
+    private BarLogic barManager;
+
+    void Start()
+    {
+        barManager = Object.FindAnyObjectByType<BarLogic>();
+        playerMug.SetActive(false); // Halba jucătorului începe dezactivată
+    }
 
     private void Update()
     {
@@ -38,10 +48,12 @@ public class BeerBarScript : MonoBehaviour
             condition2 = false; // Resetează condiția
         }
 
-        if (Input.GetKeyDown(KeyCode.E) && canDrink) // Apasă E pentru a bea o bere
+        // Apasă E pentru a bea o bere, doar dacă playerMug este activ
+        if (Input.GetKeyDown(KeyCode.E) && canDrink && playerMug.activeSelf)
         {
             DrinkBeer();
             lastDrinkTime = Time.time; // Resetăm timpul ultimei băuturi
+            playerMug.SetActive(false); // Dezactivează halba
         }
 
         // Verificăm dacă au trecut 5 secunde fără apăsarea tastei E
