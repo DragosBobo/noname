@@ -39,7 +39,8 @@ public class PlayerInteraction : MonoBehaviour
                 {
                     audioSource.Play();
                 }
-
+                //creste viata playerului 
+                FindAnyObjectByType<BeerBarScript>().SetCondition(1, true);
                 // Dezactivează clientul
                 other.gameObject.SetActive(false);
             }
