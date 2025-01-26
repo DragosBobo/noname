@@ -625,6 +625,7 @@ MonoBehaviour:
   increaseAmount: 0.2
   decreaseAmount: 0.1
   permanentDecreaseRate: 0.05
+  playerMug: {fileID: 1576163055}
 --- !u!114 &71746510
 MonoBehaviour:
   m_ObjectHideFlags: 0
