@@ -7,7 +7,7 @@ public class PlayerInteraction : MonoBehaviour
 
     void Start()
     {
-        barManager = FindAnyObjectByType<BarLogic>();
+        barManager = Object.FindAnyObjectByType<BarLogic>();
         playerMug.SetActive(false); // Halba jucătorului începe dezactivată
     }
 
@@ -32,6 +32,16 @@ public class PlayerInteraction : MonoBehaviour
             {
                 playerMug.SetActive(false);
                 barManager.PlayerReturnedMug(); // Anunță că jucătorul nu mai are halba
+
+                // Redă sunet și dezactivează clientul
+                AudioSource audioSource = other.GetComponent<AudioSource>();
+                if (audioSource != null)
+                {
+                    audioSource.Play();
+                }
+
+                // Dezactivează clientul
+                other.gameObject.SetActive(false);
             }
         }
     }
