@@ -2945,10 +2945,6 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 57226774323487835, guid: 6bead5d7045731746b6c7ab60aef9218, type: 3}
-      propertyPath: input
-      value: 
-      objectReference: {fileID: 9153665474872063234}
-    - target: {fileID: 57226774323487835, guid: 6bead5d7045731746b6c7ab60aef9218, type: 3}
       propertyPath: cameraScript
       value: 
       objectReference: {fileID: 3498653263493207009}
@@ -7083,7 +7079,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6502874058060757509}
-  - component: {fileID: 9153665474872063234}
+  - component: {fileID: 9153665474872063235}
   m_Layer: 0
   m_Name: gameManager
   m_TagString: Untagged
@@ -112287,11 +112283,11 @@ Transform:
   m_GameObject: {fileID: 23253880203558477}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -12.490504, y: -11.011303, z: 0.52087784}
+  m_LocalPosition: {x: -26.130505, y: -9.871303, z: -32.129124}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 7203245149862612092}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &6511849537836171166
 MeshRenderer:
@@ -133617,7 +133613,6 @@ Transform:
   - {fileID: 4619084253387107051}
   - {fileID: 4732299418155410751}
   - {fileID: 5944442783099201410}
-  - {fileID: 6502874058060757509}
   - {fileID: 8428410319152927366}
   - {fileID: 4875632211050112820}
   - {fileID: 1837233000447209333}
@@ -158753,7 +158748,7 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 4
     vectorLabel1_3: W
---- !u!114 &9153665474872063234
+--- !u!114 &9153665474872063235
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -158762,9 +158757,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 23253880203558477}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ce9e57e6cf80c7b49803752d8c73bd36, type: 3}
+  m_Script: {fileID: 11500000, guid: ea88b41a1f0f23848ad29e130bff271b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  beersDrunk: 0
+  beersDelivered: 0
+  survivedTime: 0
 --- !u!64 &9165728974213670581
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -159295,3 +159293,4 @@ SceneRoots:
   - {fileID: 1182452507}
   - {fileID: 23841360}
   - {fileID: 1602667042}
+  - {fileID: 6502874058060757509}

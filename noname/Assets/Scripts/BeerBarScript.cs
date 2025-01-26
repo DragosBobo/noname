@@ -91,6 +91,7 @@ public class BeerBarScript : MonoBehaviour
     private void DrinkBeer()
     {
         beerCount++;
+        GameManager.Instance.BeersDrunk();
 
         if (beerCount == 1)
         {

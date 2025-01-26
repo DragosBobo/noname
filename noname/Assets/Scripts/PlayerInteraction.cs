@@ -32,7 +32,7 @@ public class PlayerInteraction : MonoBehaviour
             {
                 playerMug.SetActive(false);
                 barManager.PlayerReturnedMug(); // Anunță că jucătorul nu mai are halba
-
+                GameManager.Instance.BeersDelivered();
                 // Redă sunet și dezactivează clientul
                 AudioSource audioSource = other.GetComponent<AudioSource>();
                 if (audioSource != null)

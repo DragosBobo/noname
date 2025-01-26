@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections.Generic;
 using System.Collections;
+using Unity.VisualScripting;
 
 public class BarLogic : MonoBehaviour
 {
@@ -70,5 +71,4 @@ public class BarLogic : MonoBehaviour
         playerHasMug = false; // Jucătorul nu mai are o halbă
         ResetBeerMugs(); // Asigură-te că toate halbele sunt active
     }
-
 }

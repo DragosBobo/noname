@@ -9,6 +9,7 @@ public class MainMenuController : MonoBehaviour
     {
         Debug.Log("Start Game Button Clicked");
         
+        GameManager.Instance.StartPlaying();
         SceneManager.LoadScene(2);
     }
 

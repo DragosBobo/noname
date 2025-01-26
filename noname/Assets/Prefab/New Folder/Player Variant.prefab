@@ -13587,6 +13587,7 @@ GameObject:
   - component: {fileID: 1303213487723273318}
   - component: {fileID: 519326935676214800}
   - component: {fileID: 1036877204172442260}
+  - component: {fileID: 8612674988577797093}
   m_Layer: 0
   m_Name: Player Variant
   m_TagString: Player
@@ -13623,7 +13624,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rb: {fileID: 3076207876004349793}
-  input: {fileID: 0}
+  input: {fileID: 8612674988577797093}
   animator: {fileID: 5640159949248752010}
   visualTransform: {fileID: 8637529248754187731}
   cameraScript: {fileID: 0}
@@ -13715,6 +13716,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerMug: {fileID: 0}
+--- !u!114 &8612674988577797093
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5870155626216153794}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce9e57e6cf80c7b49803752d8c73bd36, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &5910413870834103923
 GameObject:
   m_ObjectHideFlags: 0
